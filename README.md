@@ -9,15 +9,7 @@
 通过使用以下命令拉取镜像
 
 ```shell
-$ docker pull MaJunChaoGit/docker-geoserver
-```
-
-Alternatively you can build the image locally
-
-```
-$ git clone https://github.com/MaJunChaoGit/docker-geoserver.git
-$ cd docker-geoserver
-$ docker build -t "MaJunChaoGit/docker-geoserver" .
+$ docker pull dama5555/docker-geoserver
 ```
 
 ## 启动
@@ -25,7 +17,7 @@ $ docker build -t "MaJunChaoGit/docker-geoserver" .
 使用以下命令进行启动
 
 ```
-$ docker run --name "geoserver" -d -p 8080:8080 MaJunChaoGit/geoserver
+$ docker run --name "geoserver" -d -p 8080:8080 dama5555/geoserver
 ```
 
 通过浏览器输入`http://localhost:8080/geoserver` 并且输入以下账号密码进行登录
